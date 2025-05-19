@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-playwright",
+  "version": "1.0.0",
+  "description": "Automated tests for portfolio website using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenzix106/portfolio-playwright.git"
+  },
+  "keywords": ["playwright", "testing", "automation"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tenzix106/portfolio-playwright/issues"
+  },
+  "homepage": "https://github.com/tenzix106/portfolio-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1"
+  }
+}
